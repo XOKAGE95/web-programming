@@ -1,0 +1,238 @@
+.POCENTRU{
+  margin: 0px 0px 0px 39px;
+
+
+}
+
+#file{
+		position: relative;
+		top: 170px;
+		right: 10px;
+
+}
+
+.link{
+    text-decoration: none;
+    color: #4040ff;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+#okno{
+
+    background: white;
+    text-decoration-color: black;
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+}
+
+span.black{
+	text-decoration: none;
+    color: black;
+}
+span.black:hover{
+	text-decoration: none;
+    color: black;
+}
+
+#main{
+
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+
+}
+
+#main:target {display: block;}
+#okno:target {display: block;}
+
+.picture {
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    text-align:center;
+    opacity: 1;
+    padding: 20px 20px 0px 20px;
+}
+
+.BlockButton{
+	position: relative;
+	background: #000000;
+	width: 160px;
+	opacity: 0;
+	margin-top: -24px;
+	overflow: hidden;
+
+}
+
+.picture:hover .BlockButton{
+	opacity: 0.6;
+    transition: opacity .3s;
+    display: block;
+    cursor: pointer;
+}
+
+.container-picture{
+	background: #343a40;
+	border-radius: 5px;
+  border-top: 2px double #ff2400;
+
+	padding: 0px 0px 0px 0px;
+	margin: 10px 20px 0px 0px;
+	width: 200px;
+   	height: 250px;
+	float: left;
+    align-items: center;
+}
+
+.container-text{
+    border-radius: 5px;
+  border-top: 2px solid #ff2400;
+	background: #343a40;
+	margin: 10px 20px 0 0;
+	width: 600px;
+    height: 250px;
+    float: left;
+
+
+}
+
+.container-list{
+  border-radius: 5px;
+  border-top: 2px double #ff2400;
+	background: #343a40;
+	margin: 10px 0 0 0;
+	width: 270px;
+    height: 250px;
+    float: left;
+}
+
+
+a.button15 {
+	position: relative;
+  display: inline-block;
+  font-family: arial,sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(68,68,68);
+  text-decoration: none;
+  user-select: none;
+  padding: .2em 1.2em;
+  outline: none;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 2px;
+  background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+  transition: all .218s ease 0s;
+  margin: 5px 0px 0px 0px;
+}
+a.button15:hover {
+  color: rgb(24,24,24);
+  border: 1px solid rgb(198,198,198);
+  background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+a.button15:active {
+  color: rgb(51,51,51);
+  border: 1px solid rgb(204,204,204);
+  background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+  box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+}
+
+.text{
+
+  margin: 40px 10px 10px 30px;
+}
+
+.SearchContainer{
+  background: #343a40;
+  border-radius: 5px;
+  border-top: 2px double #ff2400;
+
+  padding: 20px 0px 20px 20px;
+  margin: 10px 0px 0px -15px;
+  width: 1140px;
+  height: auto;
+  float: left;
+    align-items: center;
+}
+
+.StudentContainer{
+
+   background: black;
+  border-radius: 5px;
+  border-top: 2px double #ff2400;
+
+  padding: 20px 0px 20px 20px;
+  margin: 10px 0px 0px -15px;
+  width: auto;
+  height: auto;
+  float: left;
+    align-items: center;
+
+}
+
+
+
+.Search
+{
+    list-style-type: none;  
+    position: relative;
+    
+    margin:20px 20px 20px 0px;
+    padding: 20px 0px 20px 0px;
+    border: 1px solid #000;
+    width: 200px;
+    height: auto;
+    text-decoration: none;
+    text-align: center;
+}
+
+.Search:hover
+{
+  text-decoration: none;
+
+}
+
+.kek
+{
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0;
+}
+
+.SearchBox
+{
+  list-style-type: none;
+  margin: 20px 600px 20px 40px;
+  padding: 20px 20px 20px 20px;
+  border: 1px solid #000;
+  width: 400px;
+  float:left;
+}
+
+.PictureBoxMini
+{
+  float:left;
+  margin: 0px 20px 0 0;
+
+}
+
+.StudentBox
+{
+  float:left;
+  margin: 0 0 0 0px;
+
+}
